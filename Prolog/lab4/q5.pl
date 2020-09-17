@@ -1,0 +1,11 @@
+split(X,[],[],[]).
+split(X,[H|T],L,G):-
+	H<X,
+	!,
+	split(X,T,L1,G1),
+	L=[H|L1],
+	G=G1.
+split(X,[H|T],L,G):-
+	split(X,T,L1,G1),
+	G=[H|G1],
+	L=L1.

@@ -1,0 +1,7 @@
+From the classes of errors listed Below, Design C program fragment to Compare the outputs of Splint and the Standard C compiler.
+1. Dereferencing a possibly null pointer 
+2. Using possibly undefined storage or returning storage that is not properly defined 
+3. Type mismatches, with greater precision and flexibility than provided by C compilers 
+4. Violations of information hiding 
+5. Memory management errors including uses of dangling references and memory leaks 
+6. Dangerous aliasing 
