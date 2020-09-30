@@ -7,6 +7,7 @@ reverse([H|T],ReversedList):-
     reverse(T,Reverse),
     conc(Reverse,[H],ReversedList).
 
+pal([],[]).
 pal(X,Res) :-
     reverse(X,[Y|ReversedList]),
     conc(X,ReversedList,Res).

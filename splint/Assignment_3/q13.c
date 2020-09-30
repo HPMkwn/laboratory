@@ -10,10 +10,10 @@ int main()
         switch( string[x] )
         {
             case ' ':
-                // putchar('\n');
+                putchar('\n');
                 break;
             case '\n':
-                // putchar('\n');
+                putchar('\n');
                 break;
             // default:
             //     putchar( string[x] );
